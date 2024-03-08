@@ -4,6 +4,9 @@ weight: 5
 draft: false
 ---
 
+You are about to start learning Erlang. On this page you find links to a few
+useful resources. 
+
 ## Erlang tutorial slides
 
 In Studium  you find both lecture slides and a set of
@@ -29,7 +32,7 @@ tutorial slides for module 8.
 
 ## The Linux terminal 
 
-The string `$ ` &nbsp; will be used to denote the Linux shell prompt. For example, to run the `ls` command, the following notation will be used:
+The string `$` will be used to denote the Linux shell prompt. For example, to run the `ls` command, the following notation will be used:
 
 ``` text
 $ ls
@@ -37,7 +40,7 @@ $ ls
 
 ## The Erlang shell
 
-The string `erlang> ` will be used to denote the Erlang shell prompt.  For example, to execute 4+1 in the Erlang shell, the following notation will be used:
+The string `erlang>` will be used to denote the Erlang shell prompt.  For example, to execute 4+1 in the Erlang shell, the following notation will be used:
 
 ``` text
 erlang> 4+1.
