@@ -1,0 +1,16 @@
+# Default config in <root>/config/_default
+
+# Site specific config below. 
+
+baseURL = 'https://ospp-assignments.github.io/'
+title = 'OSPP (1DT096) assignments'
+
+# The URL prefix to edit a page.
+# Default: not set
+# If set, an edit button will be shown in the topbar. If the button is hidden,
+# also the keyboard shortcuts are disabled. The given URL is prepended to the
+# relative file path of a the displayed page. The URL must end with a `/`.
+# This is useful if you want to give the opportunity for people to create merge
+#  request for your content.
+
+editURL = "https://github.com/ospp-assignments/ospp-assignments.github.io/edit/main/content/"

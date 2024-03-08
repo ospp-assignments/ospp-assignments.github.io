@@ -1,0 +1,57 @@
+# Default config in <root>/config/_default
+
+# Site specific config below. 
+
+baseURL = 'https://ospp-assignments.github.io/v1/'
+title = 'OSPP (1DT096) assignments'
+
+publishDir = 'public/v1/'
+
+[params]
+
+# The URL prefix to edit a page.
+# Default: not set
+# If set, an edit button will be shown in the topbar. If the button is hidden,
+# also the keyboard shortcuts are disabled. The given URL is prepended to the
+# relative file path of a the displayed page. The URL must end with a `/`.
+# This is useful if you want to give the opportunity for people to create merge
+#  request for your content.
+
+editURL = "https://github.com/ospp-assignments/ospp-assignments.github.io/edit/main/versions/v1/content/"
+
+# Symlinks are not allowed in the file system. 
+
+# https://discourse.gohugo.io/t/symbolic-links-not-supported/590
+
+# Instead of using symlinks to share files and folders the Hugo Module 
+# systems makes it possible to mount directories in the Hugo virtual 
+# file system. 
+
+# https://gohugo.io/hugo-modules/
+
+# https://gohugo.io/hugo-modules/configuration/#module-configuration-mounts
+
+# https://discourse.gohugo.io/t/how-to-mount-shared-static-folder-between-multiple-sites/47230
+
+# When the mounts configuration was introduced in Hugo 0.56.0, we were careful
+# to preserve the existing contentDir, staticDir, and similar configuration to
+# make sure all existing sites just continued to work. But you should not have
+# both: if you add a mounts section you should remove the old contentDir, 
+# staticDir, etc. settings.
+
+[module]
+[[module.mounts]]
+source = "versions/v1/content"
+target = "content"
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "versions/v1/static/images"
+target = "static/images"
+[[module.mounts]]
+source = "versions/v1/static/images/module-8"
+target = "static/images/module-8    "
+[[module.mounts]]
+source = "versions/v1/static/files"
+target = "static/files"
