@@ -27,11 +27,11 @@
      showgrid="false"
      inkscape:zoom="0.64125661"
      inkscape:cx="-506.03767"
-     inkscape:cy="638.58991"
+     inkscape:cy="640.14935"
      inkscape:window-width="1390"
-     inkscape:window-height="1035"
+     inkscape:window-height="855"
      inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-y="24"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" /><defs
      id="defs97349" /><g
@@ -1716,7 +1716,10 @@ AElFTkSuQmCC
        height="105.83333"
        x="-205.51332"
        y="177.70996"
-       ry="0" /><image
+       ry="0"
+       inkscape:export-filename="../../versions/v1/static/images/introduction-to-erlang/erlang-logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><image
        width="106.73007"
        height="93.555573"
        preserveAspectRatio="none"
