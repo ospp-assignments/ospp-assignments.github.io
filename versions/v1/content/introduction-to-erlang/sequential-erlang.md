@@ -27,7 +27,7 @@ double(A) -> 2*A.
 ### Local use 
 
 Within module `test.erl`, all functions are accessible directly. When defining the
-function `four/0` in `test.erl` the function `doulbe/1` can be called directly.
+function `four/0` in `test.erl` the function `double/1` can be called directly.
 
 ``` Erlang
 -module(test).
@@ -39,8 +39,8 @@ four() -> double(2).
 
 ### Export functions
 
-To export one ore more functions from a module, the following module attribute
-most be place at the top of the module, but after the `-module(Name)` attribute. 
+To export one or more functions from a module, the following module attribute
+must be placed at the top of the module, but after the `-module(Name)` attribute. 
 
 ``` erlang
 -export([Name1/Arity1, ..., NameN/ArityN]).
@@ -110,7 +110,7 @@ functions and their expected behaviors.
 
 ## The Erlang shell 
 
-From the terminal, navigate to the `introductin-to-erlang/mandatory/src` directory. 
+From the terminal, navigate to the `introduction-to-erlang/mandatory/src` directory. 
 
 ``` bash session
 $ cd introduction-to-erlang/mandatory/src
