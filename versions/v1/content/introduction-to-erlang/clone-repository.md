@@ -16,7 +16,7 @@ From the terminal, navigate to a directory where you want the cloned directory
 to be created and execute the following command.
 
 ``` bash session 
-$ git https://github.com/ospp-assignments/introduction-to-erlang
+$ git clone https://github.com/ospp-assignments/introduction-to-erlang
 ```
 
 Now you should see something similar to this in the terminal.
